@@ -1,0 +1,188 @@
+*{
+    margin-left:10px;
+    background-color: whitesmoke;
+}
+
+.container{
+    border:1px 0vb;
+    padding:10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.cls1{
+    margin:10px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.clsA{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cls_img{
+    margin:20px;
+}
+
+.bmep{
+    padding:30px 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(203, 55, 55);
+    font-size: medium;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.navbar li{
+    display: flex;
+    list-style: none;
+    margin:0 12px;
+    font-weight: bold;
+}
+
+.join_now{
+    padding: 7px;
+    border:2px solid burlywood;
+    border-radius:25px;
+    background-color:rgb(198, 30, 30);
+    color:whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    cursor:pointer;
+}
+
+.class1{
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.topleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:70%; 
+    font-style: italic;
+    color: rgb(63, 50, 50);
+}
+
+.topright{
+    width: 500px;
+}
+
+.h1Cls{
+    margin-top: 13px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    color: rgb(101, 71, 50);
+    text-shadow: 1px 1px rgb(149, 174, 23);
+    font-weight: bolder;
+    word-spacing:8px;
+} 
+
+.pcls1{
+    margin:0 50px ;
+    line-height: 27px;
+    font-size: large;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.h3cls{
+    color: rgb(94, 24, 104);
+    margin:0 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes{
+    display: flex;
+    margin:15px;
+    padding:50px;
+    margin:10px;
+    justify-content: space-around;
+    color: black;
+    overflow: hidden;
+}
+
+.box,.box2{
+    margin:2px;
+    padding:1px 20px;
+    border:2px solid rgb(168, 73, 26);
+    border-radius: 7px;
+    width:250px;
+    background-color:azure;
+    text-decoration: dashed;
+    box-shadow: 5px 5px 15px 10px thistle;
+    cursor: grab;
+    /* margin-right: 10px; */
+}
+
+.box1{
+    text-align: center;
+    background-color: azure;
+    cursor: grab;
+}
+
+.box2{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.contact{
+    padding:0 2px ; 
+    /* color: rgb(63, 50, 50); */
+    color: rgb(3, 77, 108);
+}
+
+#Courses,#About,#Teaching{
+    color: rgb(0, 150, 160);
+}
+
+.join{
+    color: darkslateblue;
+    justify-content: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-indent: 50px;
+}  
+
+.media{
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.media li{
+   list-style: none;
+   margin: 0;
+   white-space: initial;
+   padding: 0 .0em;
+}
+  
+.box:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+  
+.box2:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
